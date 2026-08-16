@@ -1,0 +1,85 @@
+body {
+    background-color: darkkhaki;
+    margin-top: 50px;
+}
+
+.margin {
+    background-color: burlywood;
+    padding: 30px;
+    border-bottom: solid black;
+    border-top: solid black;
+    border-left: dashed black 5px;
+    border-right: dashed black 5px;
+    padding-bottom: 100px;
+    width: 1440px;
+
+}
+
+.border {
+    background-color: cadetblue;
+    padding: 90px;
+    border-bottom: solid;
+    border-top: solid black;
+    border-left: dashed black 5px;
+    border-right: solid black 5px;
+    padding-bottom: 90px;
+    width: 1260px;
+}
+
+.padding {
+    background-color: darkseagreen;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top: solid black;
+    border-bottom: solid black;
+    border-left: dashed black 5px;
+    border-right: dashed black 5px;
+    width: 1180px;
+}
+
+.content {
+    background-color: indianred;
+    padding: 50PX;
+    width: 1080px;
+}
+
+#margin {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: -42px;
+    color: white;
+}
+
+#border {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: -101px;
+    color: white;
+}
+
+#padding {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: -21px;
+    margin-bottom: 21px;
+    color: white;
+}
+
+#content {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: cursive;
+}
+
+/*Total width calculation 
+ content :1080(w)+50(pR)+50(pL)=1180px
+padding :1180px(w)+40px(pR)+40px(pL)+5px(bR)+5px(bL)=1270px 
+border  :1260(w)+90px(pR)+90px(pL)+5px(bR)+5px(bL)=1450px 
+margin  :1440px(W)+30px(pR)+30px(pL)+5px(bR)+5px(bL)=1510px
