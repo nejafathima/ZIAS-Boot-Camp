@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Biography</title>
+    <link rel="icon" href="icon.png">
 </head>
 <style>
     body {
@@ -15,8 +16,6 @@
         margin: 38%;
         margin-bottom: 10%;
         margin-top: 100px;
-        padding-top: 40px;
-
         border-radius: 250px;
         background-color: cornsilk;
         display: block;
@@ -38,7 +37,6 @@
         font-size: 70px;
         font-weight: bold;
         margin-top: -100px;
-        font-style: bold;
         padding-bottom: 20px;
     }
 
@@ -81,7 +79,7 @@
 
     .card {
         font-size: 55px;
-        border: 1px dashed whi;
+        border: 1px solid white;
         border-radius: 10px;
         color: white;
         background-color: burlywood;
@@ -91,18 +89,15 @@
 
     #intro {
         border: 1px solid beige;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
         padding-bottom: 120px;
 
     }
-
-    #border2 {
-        border: 1px solid beige;
-    }
+    
 
     #education {
         border: 1px solid beige;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
         padding-bottom: 190px;
         padding-top: 190px;
     }
@@ -116,25 +111,26 @@
 
     #skills {
         border: 1px solid beige;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
         padding-bottom: 220px;
         padding-top: 190px;
+        
     }
 
     nav a {
         color: beige;
-        margin-left: 10px;
         text-decoration: none;
         font-size: 25px;
         font-weight: lighter;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         margin: 0 20px;
+        
     }
 
     nav {
         position: sticky;
         top: 0;
-        margin-left: 990px;
+        margin-left: 950px;
     }
 
     #button {
@@ -173,8 +169,9 @@
     }
 
     footer {color: aliceblue;
-    font-family: monospace;
-    font-size: 18px;}
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: lighter;}
 </style>
 
 <body>
@@ -182,7 +179,7 @@
         <a href="#intro">HOME</a>
         <a href="#education">EDUCATION</a>
         <a href="#skills">SKILLS</a>
-        <a href="#hobbies">SKILLS</a>
+        <a href="#hobbies">HOBBIES</a>
     </nav>
 
     <div id="intro">
@@ -220,8 +217,8 @@
     </div>
 
     <div>
-        <div id="skills"><br><br><span class="card">SKILLS</span> <br><br>
-            Creativity, Writing, Graphic Design
+        <div id="skills"><br><br><span class="card">SKILLS</span> <br><br><br>
+            Creativity, Writing, Graphic Design <br>
             <p class="explanation">Creativity – Developing creative ideas, thinking differently, <br> and finding new
                 and interesting ways to approach different tasks and challenges. <br><br>Writing – Expressing thoughts,
                 ideas, and information clearly and effectively through well-organized and engaging written content. <br>
@@ -235,8 +232,8 @@
 
     <div>
 
-        <div id="hobbies"><br><br><span class="card">HOBBIES</span> <br><br>
-            Reading, Writing, Designing <br><br>
+        <div id="hobbies"><br><br><span class="card">HOBBIES</span> <br><br><br>
+            Reading, Writing, Designing <br>
             <p class="explanation">Reading – Exploring different books and gaining new ideas, knowledge,and perspectives
                 <br> through reading. <br><br>
 
@@ -251,7 +248,6 @@
     </div>
 
 
-    </ul>
 
     <button id="button"><a href="#intro">↑</a></button>
 
